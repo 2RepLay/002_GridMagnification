@@ -11,6 +11,7 @@
 		11BDC6B828D7AADD00300098 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDC6B728D7AADD00300098 /* ContentView.swift */; };
 		11BDC6BA28D7AAE000300098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BDC6B928D7AAE000300098 /* Assets.xcassets */; };
 		11BDC6BD28D7AAE000300098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BDC6BC28D7AAE000300098 /* Preview Assets.xcassets */; };
+		11BDC6C528D7AB5200300098 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDC6C428D7AB5200300098 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		11BDC6B728D7AADD00300098 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11BDC6B928D7AAE000300098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BDC6BC28D7AAE000300098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11BDC6C428D7AB5200300098 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		11BDC6B428D7AADD00300098 /* 002_GridMagnification */ = {
 			isa = PBXGroup;
 			children = (
+				11BDC6C328D7AB0700300098 /* View */,
 				11BDC6B528D7AADD00300098 /* _02_GridMagnificationApp.swift */,
 				11BDC6B728D7AADD00300098 /* ContentView.swift */,
 				11BDC6B928D7AAE000300098 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				11BDC6BC28D7AAE000300098 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11BDC6C328D7AB0700300098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11BDC6C428D7AB5200300098 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11BDC6B828D7AADD00300098 /* ContentView.swift in Sources */,
+				11BDC6C528D7AB5200300098 /* Home.swift in Sources */,
 				11BDC6B628D7AADD00300098 /* _02_GridMagnificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
